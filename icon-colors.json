@@ -1,0 +1,27 @@
+[
+  {
+    "value": "#ffffff",
+    "ariaLabel": "Blanc (par défaut)",
+    "isDefault": false
+  },
+  {
+    "value": "#0f172a",
+    "ariaLabel": "Bleu nuit",
+    "isDefault": false
+  },
+  {
+    "value": "#1d4ed8",
+    "ariaLabel": "Bleu",
+    "isDefault": false
+  },
+  {
+    "value": "#16a34a",
+    "ariaLabel": "Vert",
+    "isDefault": false
+  },
+  {
+    "value": "#f97316",
+    "ariaLabel": "Orange",
+    "isDefault": true
+  }
+]

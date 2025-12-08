@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Icons World</title>
+
+  <!-- Police Lexend Exa -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --bg: #020617;
+      --surface: #020617;
+      --border: #1f2937;
+      --accent: #38bdf8;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --radius: 16px;
+
+      /* La couleur par défaut sera remplacée par celle du JSON */
+      --icon-bg: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: "Lexend Exa", system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    /* Header fixe */
+    .top-bar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 50;
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .top-bar-inner {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 1rem 1.25rem;
+    }
+
+    header {
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0 0 0.25rem;
+      font-size: 1.5rem;
+      font-weight: 650;
+    }
+
+    header p {
+      margin: 0;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    .search-bar {
+      margin-top: 1rem;
+    }
+
+    .search-input-wrapper {
+      position: relative;
+    }
+
+    .search-bar input {
+      width: 100%;
+      padding: 0.75rem 1rem;
+      padding-right: 2.2rem;
+      font-size: 0.95rem;
+      border-radius: 999px;
+      border: 1px solid #4b5563;
+      background: #020617;
+      color: var(--text);
+      outline: none;
+      transition: border-color 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .search-bar input::placeholder {
+      color: var(--muted);
+    }
+
+    .search-bar input:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 2px rgba(56, 189, 248, 0.35);
+    }
+
+    #clearSearch {
+      position: absolute;
+      right: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: none;
+      border: none;
+      color: var(--muted);
+      font-size: 1rem;
+      cursor: pointer;
+      display: none;
+    }
+
+    /* Sélecteur de couleur */
+    .color-picker {
+      margin-top: 0.9rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+
+    .color-picker-label {
+      margin-right: 0.25rem;
+    }
+
+    .color-options {
+      display: inline-flex;
+      gap: 0.4rem;
+    }
+
+    .color-option {
+      width: 20px;
+      height: 20px;
+      border-radius: 999px;
+      border: 2px solid transparent;
+      cursor: pointer;
+      padding: 0;
+      background-clip: padding-box;
+    }
+
+    .color-option.active {
+      border-color: #ffffff;
+      box-shadow: 0 0 0 2px rgba(56, 189, 248, 0.6);
+    }
+
+    /* Icônes */
+    .page {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 210px 1.25rem 2rem;
+    }
+
+    .icons {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+      gap: 0.75rem;
+    }
+
+    .icon-item a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 80px;
+      height: 80px;
+      border-radius: 999px;
+      background: var(--icon-bg);
+      overflow: hidden;
+    }
+
+    .icon-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    .empty-message {
+      display: none;
+      text-align: center;
+      color: var(--muted);
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER FIXE -->
+  <div class="top-bar">
+    <div class="top-bar-inner">
+      <header>
+        <h1>Icons World</h1>
+        <p>Bibliothèque d'icônes PNG. Rechercher, parcourir et télécharger en un clic.</p>
+
+        <!-- Barre de recherche -->
+        <div class="search-bar">
+          <div class="search-input-wrapper">
+            <input type="text" id="search" placeholder="Rechercher une icône par nom ou tag..." />
+            <button type="button" id="clearSearch">✕</button>
+          </div>
+        </div>
+
+        <!-- Sélecteur de couleur (généré dynamiquement) -->
+        <div class="color-picker">
+          <span class="color-picker-label">Fond de l'icône :</span>
+          <div class="color-options" id="colorOptions"></div>
+        </div>
+      </header>
+    </div>
+  </div>
+
+  <!-- Contenu -->
+  <main class="page">
+    <div class="empty-message" id="emptyMessage">Aucune icône trouvée.</div>
+    <div class="icons" id="iconList"></div>
+  </main>
+
+  <script>
+    let iconsData = [];
+    let currentBgColor = "#ffffff";
+
+    const list = document.getElementById("iconList");
+    const searchInput = document.getElementById("search");
+    const clearBtn = document.getElementById("clearSearch");
+    const emptyMessage = document.getElementById("emptyMessage");
+    const colorOptionsContainer = document.getElementById("colorOptions");
+
+    /* Chargement des couleurs à partir du JSON */
+    async function loadColorsConfig() {
+      try {
+        const response = await fetch("./icon-colors.json");
+        const colors = await response.json();
+
+        colorOptionsContainer.innerHTML = "";
+
+        const defaultColor = colors.find(c => c.isDefault) || colors[0];
+        currentBgColor = defaultColor.value;
+
+        document.documentElement.style.setProperty("--icon-bg", currentBgColor);
+
+        colors.forEach(color => {
+          const button = document.createElement("button");
+          button.classList.add("color-option");
+          button.style.background = color.value;
+          button.dataset.color = color.value;
+          button.setAttribute("aria-label", color.ariaLabel);
+
+          if (color.isDefault) {
+            button.classList.add("active");
+          }
+
+          button.addEventListener("click", () => {
+            currentBgColor = color.value;
+            document.documentElement.style.setProperty("--icon-bg", currentBgColor);
+
+            document.querySelectorAll(".color-option").forEach(b => b.classList.remove("active"));
+            button.classList.add("active");
+          });
+
+          colorOptionsContainer.appendChild(button);
+        });
+      } catch (err) {
+        console.error("Erreur chargement couleurs :", err);
+      }
+    }
+
+    /* Chargement des icônes */
+    async function loadIconsData() {
+      try {
+        const response = await fetch("./icons-datas.json");
+        iconsData = await response.json();
+        renderIcons();
+      } catch (error) {
+        emptyMessage.textContent = "Impossible de charger les icônes.";
+        emptyMessage.style.display = "block";
+      }
+    }
+
+    /* Rendu des icônes */
+    function renderIcons(filter = "") {
+      const query = filter.toLowerCase();
+      list.innerHTML = "";
+
+      let found = 0;
+
+      iconsData.forEach(icon => {
+        const match =
+          icon.name.toLowerCase().includes(query) ||
+          icon.tags.some(t => t.toLowerCase().includes(query));
+
+        if (query === "" || match) {
+          const div = document.createElement("div");
+          div.className = "icon-item";
+          div.innerHTML = `
+            <a href="#" data-name="${icon.name}">
+              <img src="${icon.src}" alt="${icon.name}">
+            </a>
+          `;
+
+          div.querySelector("a").addEventListener("click", e => handleDownload(e, icon));
+
+          list.appendChild(div);
+          found++;
+        }
+      });
+
+      emptyMessage.style.display = found === 0 ? "block" : "none";
+    }
+
+    /* Téléchargement */
+    function handleDownload(event, icon) {
+      event.preventDefault();
+
+      const img = new Image();
+      img.src = icon.src;
+
+      img.onload = () => {
+        const canvas = document.createElement("canvas");
+        canvas.width = img.width;
+        canvas.height = img.height;
+
+        const ctx = canvas.getContext("2d");
+
+        ctx.fillStyle = currentBgColor;
+        ctx.beginPath();
+        ctx.arc(canvas.width / 2, canvas.height / 2, canvas.width / 2, 0, Math.PI * 2);
+        ctx.fill();
+
+        ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+
+        const link = document.createElement("a");
+        link.href = canvas.toDataURL("image/png");
+        link.download = icon.name + ".png";
+        link.click();
+      };
+    }
+
+    /* Recherche */
+    searchInput.addEventListener("input", () => {
+      const value = searchInput.value;
+      clearBtn.style.display = value ? "block" : "none";
+      renderIcons(value);
+    });
+
+    clearBtn.addEventListener("click", () => {
+      searchInput.value = "";
+      clearBtn.style.display = "none";
+      renderIcons("");
+    });
+
+    /* Initialisation */
+    loadColorsConfig();
+    loadIconsData();
+  </script>
+
+</body>
+</html>
