@@ -1,13 +1,8 @@
 [
   {
-    "name": "manette de jeu",
-    "tags": ["jeu vidéo", "manette", "gamepad", "console", "game controller"],
-    "src": "./img/icons/game_controller.png"
-  },
-  {
-    "name": "switch",
-    "tags": ["jeu vidéo", "manette", "gamepad", "console", "game controller"],
-    "src": "./img/icons/switch.png"
+    "name": "maison",
+    "tags": ["maison", "accueil", "home", "logement", "house"],
+    "src": "./img/icons/house.png"
   },
   {
     "name": "plante en pot",
@@ -25,84 +20,9 @@
     "src": "./img/icons/fireplace.png"
   },
   {
-    "name": "pion",
-    "tags": ["pion", "échecs", "jeu de société", "chess", "pawn"],
-    "src": "./img/icons/pawn.png"
-  },
-  {
-    "name": "casque audio",
-    "tags": ["audio", "musique", "casque", "écouteurs", "headphones"],
-    "src": "./img/icons/headphones.png"
-  },
-  {
-    "name": "smartphone",
-    "tags": ["téléphone", "mobile", "smartphone", "app", "smartphone"],
-    "src": "./img/icons/smartphone.png"
-  },
-  {
-    "name": "assiette de cookies",
-    "tags": ["cookies", "biscuits", "dessert", "goûter", "cookies plate"],
-    "src": "./img/icons/cookies_plate.png"
-  },
-  {
-    "name": "radio",
-    "tags": ["radio", "audio", "musique", "fm", "radio"],
-    "src": "./img/icons/radio.png"
-  },
-  {
-    "name": "clé",
-    "tags": ["clé", "sécurité", "verrou", "clé de maison", "key"],
-    "src": "./img/icons/key.png"
-  },
-  {
-    "name": "montre",
-    "tags": ["montre", "heure", "poignet", "accessoire", "wristwatch"],
-    "src": "./img/icons/watch.png"
-  },
-  {
-    "name": "vélo",
-    "tags": ["vélo", "bicyclette", "transport", "cyclisme", "bicycle"],
-    "src": "./img/icons/bicycle.png"
-  },
-  {
     "name": "lampe sur pied",
     "tags": ["lampe", "lumière", "salon", "lampadaire", "floor lamp"],
     "src": "./img/icons/floor_lamp.png"
-  },
-  {
-    "name": "horloge",
-    "tags": ["horloge", "heure", "temps", "pendule", "clock"],
-    "src": "./img/icons/clock.png"
-  },
-  {
-    "name": "livre ouvert",
-    "tags": ["livre", "lecture", "ouvert", "histoire", "open book"],
-    "src": "./img/icons/open_book.png"
-  },
-  {
-    "name": "pièce de puzzle",
-    "tags": ["puzzle", "jeu", "pièce", "assemblage", "puzzle piece"],
-    "src": "./img/icons/puzzle_piece.png"
-  },
-  {
-    "name": "tasse de café",
-    "tags": ["café", "boisson chaude", "tasse", "pause", "coffee cup"],
-    "src": "./img/icons/coffee_cup.png"
-  },
-  {
-    "name": "bibliothèque",
-    "tags": ["livres", "bibliothèque", "étagère", "lecture", "bookshelf"],
-    "src": "./img/icons/bookshelf.png"
-  },
-  {
-    "name": "réveil",
-    "tags": ["réveil", "alarme", "heure", "matin", "alarm clock"],
-    "src": "./img/icons/alarm_clock.png"
-  },
-  {
-    "name": "fauteuil",
-    "tags": ["fauteuil", "siège", "salon", "confort", "armchair"],
-    "src": "./img/icons/armchair.png"
   },
   {
     "name": "lampe de plafond",
@@ -110,9 +30,39 @@
     "src": "./img/icons/ceiling_lamp.png"
   },
   {
-    "name": "écran d’ordinateur",
-    "tags": ["ordinateur", "écran", "moniteur", "pc", "computer monitor"],
-    "src": "./img/icons/computer_monitor.png"
+    "name": "lampe de table",
+    "tags": ["lampe", "bureau", "table", "lumière", "table lamp"],
+    "src": "./img/icons/table_lamp.png"
+  },
+  {
+    "name": "horloge",
+    "tags": ["horloge", "heure", "temps", "pendule", "clock"],
+    "src": "./img/icons/clock.png"
+  },
+  {
+    "name": "réveil",
+    "tags": ["réveil", "alarme", "heure", "matin", "alarm clock"],
+    "src": "./img/icons/alarm_clock.png"
+  },
+  {
+    "name": "montre",
+    "tags": ["montre", "heure", "poignet", "accessoire", "wristwatch"],
+    "src": "./img/icons/watch.png"
+  },
+  {
+    "name": "bibliothèque",
+    "tags": ["livres", "bibliothèque", "étagère", "lecture", "bookshelf"],
+    "src": "./img/icons/bookshelf.png"
+  },
+  {
+    "name": "fauteuil",
+    "tags": ["fauteuil", "siège", "salon", "confort", "armchair"],
+    "src": "./img/icons/armchair.png"
+  },
+  {
+    "name": "canapé",
+    "tags": ["canapé", "sofa", "salon", "confort", "sofa"],
+    "src": "./img/icons/sofa.png"
   },
   {
     "name": "cadre photo",
@@ -120,11 +70,26 @@
     "src": "./img/icons/picture_frame.png"
   },
   {
+    "name": "cadre photo 2",
+    "tags": ["cadre", "photo", "image", "portrait", "photo frame"],
+    "src": "./img/icons/photo_frame.png"
+  },
+  {
+    "name": "clé",
+    "tags": ["clé", "sécurité", "verrou", "clé de maison", "key"],
+    "src": "./img/icons/key.png"
+  },
+  {
+    "name": "balai",
+    "tags": ["balai", "ménage", "nettoyage", "propreté", "broom"],
+    "src": "./img/icons/broom.png"
+  },
+
+  {
     "name": "document",
     "tags": ["document", "fichier", "papier", "rapport", "document"],
     "src": "./img/icons/document.png"
   },
-
   {
     "name": "liste à cocher",
     "tags": ["liste", "tâches", "checklist", "à faire", "checklist paper"],
@@ -146,34 +111,223 @@
     "src": "./img/icons/check_box.png"
   },
   {
+    "name": "épingle de carte",
+    "tags": ["carte", "position", "emplacement", "lieu", "map pin"],
+    "src": "./img/icons/map_pin.png"
+  },
+
+  {
+    "name": "manette de jeu",
+    "tags": ["jeu vidéo", "manette", "gamepad", "console", "game controller"],
+    "src": "./img/icons/game_controller.png"
+  },
+  {
+    "name": "switch",
+    "tags": ["jeu vidéo", "manette", "gamepad", "console", "game controller"],
+    "src": "./img/icons/switch.png"
+  },
+  {
+    "name": "pion",
+    "tags": ["pion", "échecs", "jeu de société", "chess", "pawn"],
+    "src": "./img/icons/pawn.png"
+  },
+  {
+    "name": "pièce de puzzle",
+    "tags": ["puzzle", "jeu", "pièce", "assemblage", "puzzle piece"],
+    "src": "./img/icons/puzzle_piece.png"
+  },
+  {
+    "name": "livre ouvert",
+    "tags": ["livre", "lecture", "ouvert", "histoire", "open book"],
+    "src": "./img/icons/open_book.png"
+  },
+  {
     "name": "lunettes",
     "tags": ["lunettes", "vision", "vue", "lecture", "glasses"],
     "src": "./img/icons/glasses.png"
+  },
+  {
+    "name": "casque audio",
+    "tags": ["audio", "musique", "casque", "écouteurs", "headphones"],
+    "src": "./img/icons/headphones.png"
+  },
+  {
+    "name": "radio",
+    "tags": ["radio", "audio", "musique", "fm", "radio"],
+    "src": "./img/icons/radio.png"
   },
   {
     "name": "guitare",
     "tags": ["guitare", "musique", "instrument", "concert", "guitar"],
     "src": "./img/icons/guitar.png"
   },
+
   {
-    "name": "lampe de table",
-    "tags": ["lampe", "bureau", "table", "lumière", "table lamp"],
-    "src": "./img/icons/table_lamp.png"
+    "name": "écran d’ordinateur",
+    "tags": ["ordinateur", "écran", "moniteur", "pc", "computer monitor"],
+    "src": "./img/icons/computer_monitor.png"
   },
   {
-    "name": "canapé",
-    "tags": ["canapé", "sofa", "salon", "confort", "sofa"],
-    "src": "./img/icons/sofa.png"
+    "name": "souris d’ordinateur",
+    "tags": ["souris", "ordinateur", "pc", "curseur", "computer mouse"],
+    "src": "./img/icons/computer_mouse.png"
   },
   {
-    "name": "cadre photo 2",
-    "tags": ["cadre", "photo", "image", "portrait", "photo frame"],
-    "src": "./img/icons/photo_frame.png"
+    "name": "flèche de curseur",
+    "tags": ["curseur", "flèche", "souris", "sélection", "cursor arrow"],
+    "src": "./img/icons/cursor_arrow.png"
+  },
+  {
+    "name": "smartphone",
+    "tags": ["téléphone", "mobile", "smartphone", "app", "smartphone"],
+    "src": "./img/icons/smartphone.png"
+  },
+  {
+    "name": "téléphone fixe",
+    "tags": ["téléphone", "appeler", "contact", "appel", "phone handset"],
+    "src": "./img/icons/phone_handset.png"
+  },
+  {
+    "name": "enveloppe",
+    "tags": ["enveloppe", "courrier", "mail", "message", "envelope"],
+    "src": "./img/icons/envelope.png"
+  },
+  {
+    "name": "avion en papier",
+    "tags": ["message", "envoyer", "avion en papier", "papier", "paper plane"],
+    "src": "./img/icons/paper_plane.png"
+  },
+  {
+    "name": "bulle de dialogue",
+    "tags": ["bulle", "discussion", "message", "chat", "speech bubble"],
+    "src": "./img/icons/speech_bubble.png"
+  },
+  {
+    "name": "logo Facebook",
+    "tags": ["facebook", "réseau social", "social", "logo", "facebook"],
+    "src": "./img/icons/facebook.png"
+  },
+  {
+    "name": "logo LinkedIn",
+    "tags": ["linkedin", "réseau social", "professionnel", "logo", "linkedin"],
+    "src": "./img/icons/linkedin.png"
+  },
+  {
+    "name": "appareil photo",
+    "tags": ["photo", "appareil", "image", "caméra", "camera"],
+    "src": "./img/icons/camera.png"
+  },
+  {
+    "name": "microphone",
+    "tags": ["micro", "microphone", "audio", "voix", "microphone"],
+    "src": "./img/icons/microphone.png"
+  },
+
+  {
+    "name": "globe terrestre",
+    "tags": ["globe", "monde", "planète", "international", "globe"],
+    "src": "./img/icons/globe.png"
+  },
+  {
+    "name": "vélo",
+    "tags": ["vélo", "bicyclette", "transport", "cyclisme", "bicycle"],
+    "src": "./img/icons/bicycle.png"
+  },
+  {
+    "name": "avion",
+    "tags": ["avion", "voyage", "vol", "transport", "airplane"],
+    "src": "./img/icons/airplane.png"
+  },
+
+  {
+    "name": "tasse de café",
+    "tags": ["café", "boisson chaude", "tasse", "pause", "coffee cup"],
+    "src": "./img/icons/coffee_cup.png"
+  },
+  {
+    "name": "assiette de cookies",
+    "tags": ["cookies", "biscuits", "dessert", "goûter", "cookies plate"],
+    "src": "./img/icons/cookies_plate.png"
+  },
+  {
+    "name": "pomme",
+    "tags": ["pomme", "fruit", "alimentation", "snack", "apple"],
+    "src": "./img/icons/apple.png"
+  },
+  {
+    "name": "croissant",
+    "tags": ["croissant", "viennoiserie", "petit-déjeuner", "boulangerie", "croissant"],
+    "src": "./img/icons/croissant.png"
+  },
+  {
+    "name": "œuf au plat",
+    "tags": ["œuf", "petit-déjeuner", "plat", "cuisine", "fried egg"],
+    "src": "./img/icons/fried_egg.png"
+  },
+  {
+    "name": "bol de soupe",
+    "tags": ["soupe", "bol", "chaud", "repas", "soup bowl"],
+    "src": "./img/icons/soup_bowl.png"
+  },
+  {
+    "name": "steak",
+    "tags": ["steak", "viande", "repas", "grillade", "steak"],
+    "src": "./img/icons/steak.png"
+  },
+  {
+    "name": "pilons de poulet",
+    "tags": ["poulet", "viande", "nourriture", "grillade", "chicken leg"],
+    "src": "./img/icons/chicken_leg.png"
+  },
+  {
+    "name": "saucisse",
+    "tags": ["saucisse", "charcuterie", "grillade", "nourriture", "sausage"],
+    "src": "./img/icons/sausage.png"
+  },
+  {
+    "name": "brochette",
+    "tags": ["brochette", "grillade", "barbecue", "nourriture", "skewer"],
+    "src": "./img/icons/skewer.png"
+  },
+  {
+    "name": "fromage",
+    "tags": ["fromage", "laitage", "nourriture", "plateau", "cheese"],
+    "src": "./img/icons/cheese.png"
+  },
+  {
+    "name": "sushi",
+    "tags": ["sushi", "japonais", "riz", "poisson", "sushi"],
+    "src": "./img/icons/sushi.png"
+  },
+  {
+    "name": "burger",
+    "tags": ["burger", "sandwich", "fast food", "repas", "burger"],
+    "src": "./img/icons/burger.png"
+  },
+  {
+    "name": "part de pizza",
+    "tags": ["pizza", "part", "fromage", "fast food", "pizza slice"],
+    "src": "./img/icons/pizza_slice.png"
+  },
+  {
+    "name": "frites",
+    "tags": ["frites", "pommes de terre", "fast food", "accompagnement", "french fries"],
+    "src": "./img/icons/french_fries.png"
+  },
+  {
+    "name": "donut",
+    "tags": ["donut", "beignet", "dessert", "sucré", "donut"],
+    "src": "./img/icons/donut.png"
   },
   {
     "name": "cornet de glace",
     "tags": ["glace", "dessert", "cornet", "sucré", "ice cream cone"],
     "src": "./img/icons/ice_cream_cone.png"
+  },
+  {
+    "name": "boisson gazeuse",
+    "tags": ["boisson", "soda", "soft drink", "froid", "soft drink"],
+    "src": "./img/icons/soft_drink.png"
   },
   {
     "name": "plat de service",
@@ -201,135 +355,71 @@
     "src": "./img/icons/knife.png"
   },
   {
-    "name": "pomme",
-    "tags": ["pomme", "fruit", "alimentation", "snack", "apple"],
-    "src": "./img/icons/apple.png"
-  },
-  {
-    "name": "steak",
-    "tags": ["steak", "viande", "repas", "grillade", "steak"],
-    "src": "./img/icons/steak.png"
-  },
-  {
-    "name": "burger",
-    "tags": ["burger", "sandwich", "fast food", "repas", "burger"],
-    "src": "./img/icons/burger.png"
-  },
-  {
-    "name": "boisson gazeuse",
-    "tags": ["boisson", "soda", "soft drink", "froid", "soft drink"],
-    "src": "./img/icons/soft_drink.png"
-  },
-  {
-    "name": "bol de soupe",
-    "tags": ["soupe", "bol", "chaud", "repas", "soup bowl"],
-    "src": "./img/icons/soup_bowl.png"
-  },
-  {
-    "name": "donut",
-    "tags": ["donut", "beignet", "dessert", "sucré", "donut"],
-    "src": "./img/icons/donut.png"
-  },
-  {
-    "name": "part de pizza",
-    "tags": ["pizza", "part", "fromage", "fast food", "pizza slice"],
-    "src": "./img/icons/pizza_slice.png"
-  },
-  {
-    "name": "croissant",
-    "tags": ["croissant", "viennoiserie", "petit-déjeuner", "boulangerie", "croissant"],
-    "src": "./img/icons/croissant.png"
-  },
-  {
-    "name": "fromage",
-    "tags": ["fromage", "laitage", "nourriture", "plateau", "cheese"],
-    "src": "./img/icons/cheese.png"
-  },
-  {
-    "name": "brochette",
-    "tags": ["brochette", "grillade", "barbecue", "nourriture", "skewer"],
-    "src": "./img/icons/skewer.png"
+    "name": "fourchette et cuillère",
+    "tags": ["fourchette", "cuillère", "repas", "couverts", "fork spoon"],
+    "src": "./img/icons/fork_spoon.png"
   },
 
-  {
-    "name": "pilons de poulet",
-    "tags": ["poulet", "viande", "nourriture", "grillade", "chicken leg"],
-    "src": "./img/icons/chicken_leg.png"
-  },
-  {
-    "name": "sushi",
-    "tags": ["sushi", "japonais", "riz", "poisson", "sushi"],
-    "src": "./img/icons/sushi.png"
-  },
-  {
-    "name": "frites",
-    "tags": ["frites", "pommes de terre", "fast food", "accompagnement", "french fries"],
-    "src": "./img/icons/french_fries.png"
-  },
-  {
-    "name": "œuf au plat",
-    "tags": ["œuf", "petit-déjeuner", "plat", "cuisine", "fried egg"],
-    "src": "./img/icons/fried_egg.png"
-  },
-  {
-    "name": "saucisse",
-    "tags": ["saucisse", "charcuterie", "grillade", "nourriture", "sausage"],
-    "src": "./img/icons/sausage.png"
-  },
-  {
-    "name": "épingle de carte",
-    "tags": ["carte", "position", "emplacement", "lieu", "map pin"],
-    "src": "./img/icons/map_pin.png"
-  },
-  {
-    "name": "enveloppe",
-    "tags": ["enveloppe", "courrier", "mail", "message", "envelope"],
-    "src": "./img/icons/envelope.png"
-  },
-  {
-    "name": "téléphone fixe",
-    "tags": ["téléphone", "appeler", "contact", "appel", "phone handset"],
-    "src": "./img/icons/phone_handset.png"
-  },
-  {
-    "name": "logo Facebook",
-    "tags": ["facebook", "réseau social", "social", "logo", "facebook"],
-    "src": "./img/icons/facebook.png"
-  },
-  {
-    "name": "logo LinkedIn",
-    "tags": ["linkedin", "réseau social", "professionnel", "logo", "linkedin"],
-    "src": "./img/icons/linkedin.png"
-  },
-  {
-    "name": "appareil photo",
-    "tags": ["photo", "appareil", "image", "caméra", "camera"],
-    "src": "./img/icons/camera.png"
-  },
-  {
-    "name": "globe terrestre",
-    "tags": ["globe", "monde", "planète", "international", "globe"],
-    "src": "./img/icons/globe.png"
-  },
-  {
-    "name": "maison",
-    "tags": ["maison", "accueil", "home", "logement", "house"],
-    "src": "./img/icons/house.png"
-  },
-  {
-    "name": "étoile",
-    "tags": ["étoile", "favori", "note", "important", "star"],
-    "src": "./img/icons/star.png"
-  },
   {
     "name": "croix médicale",
     "tags": ["médecin", "santé", "hôpital", "urgence", "medical cross"],
     "src": "./img/icons/medical_cross.png"
   },
   {
+    "name": "croix médicale entourée",
+    "tags": ["médecin", "santé", "urgence", "hôpital", "medical cross circle"],
+    "src": "./img/icons/medical_cross_circle.png"
+  },
+  {
+    "name": "balance",
+    "tags": ["justice", "équilibre", "loi", "tribunal", "scales"],
+    "src": "./img/icons/scales.png"
+  },
+  {
+    "name": "bouclier",
+    "tags": ["bouclier", "protection", "sécurité", "défense", "shield"],
+    "src": "./img/icons/shield.png"
+  },
+  {
+    "name": "épée",
+    "tags": ["épée", "combat", "arme", "médiéval", "sword"],
+    "src": "./img/icons/sword.png"
+  },
+  {
+    "name": "poignée de main",
+    "tags": ["accord", "contrat", "partenariat", "collaboration", "handshake"],
+    "src": "./img/icons/handshake.png"
+  },
+
+  {
+    "name": "étoile",
+    "tags": ["étoile", "favori", "note", "important", "star"],
+    "src": "./img/icons/star.png"
+  },
+  {
+    "name": "cœur",
+    "tags": ["cœur", "amour", "like", "favori", "heart"],
+    "src": "./img/icons/heart.png"
+  },
+  {
     "name": "croix",
     "tags": ["croix", "annuler", "fermer", "erreur", "cross mark"],
     "src": "./img/icons/cross_mark.png"
+  },
+  {
+    "name": "nuage",
+    "tags": ["nuage", "météo", "ciel", "cloud", "cloud"],
+    "src": "./img/icons/cloud.png"
+  },
+  {
+    "name": "soleil",
+    "tags": ["soleil", "météo", "jour", "lumière", "sun"],
+    "src": "./img/icons/sun.png"
+  },
+  {
+    "name": "éclair",
+    "tags": ["éclair", "foudre", "électricité", "puissance", "lightning bolt"],
+    "src": "./img/icons/lightning_bolt.png"
   },
   {
     "name": "étincelles",
@@ -347,25 +437,40 @@
     "src": "./img/icons/arrow_left.png"
   },
   {
+    "name": "flèches gauche droite",
+    "tags": ["flèches", "gauche", "droite", "déplacement", "arrow left right"],
+    "src": "./img/icons/arrow_left_right.png"
+  },
+  {
+    "name": "flèche courbée",
+    "tags": ["flèche", "retour", "courbée", "rafraîchir", "curved arrow"],
+    "src": "./img/icons/curved_arrow.png"
+  },
+  {
     "name": "flèche téléchargement",
     "tags": ["télécharger", "download", "flèche", "fichier", "download arrow"],
     "src": "./img/icons/download_arrow.png"
   },
 
   {
+    "name": "utilisateur",
+    "tags": ["utilisateur", "profil", "personne", "compte", "user"],
+    "src": "./img/icons/user.png"
+  },
+  {
+    "name": "deux personnes",
+    "tags": ["personnes", "groupe", "ami", "collègue", "two people"],
+    "src": "./img/icons/two_people.png"
+  },
+  {
     "name": "visage très heureux",
     "tags": ["heureux", "joie", "émoticône", "smiley", "face very happy"],
     "src": "./img/icons/face_very_happy.png"
   },
   {
-    "name": "visage triste",
-    "tags": ["triste", "émoticône", "smiley", "déçu", "face sad"],
-    "src": "./img/icons/face_sad.png"
-  },
-  {
-    "name": "visage neutre",
-    "tags": ["neutre", "émoticône", "smiley", "indifférent", "face neutral"],
-    "src": "./img/icons/face_neutral.png"
+    "name": "visage hilare",
+    "tags": ["rire", "hilarant", "émoticône", "smiley", "laughing face"],
+    "src": "./img/icons/laughing_face.png"
   },
   {
     "name": "visage souriant",
@@ -373,110 +478,40 @@
     "src": "./img/icons/face_smiling.png"
   },
   {
+    "name": "visage neutre",
+    "tags": ["neutre", "émoticône", "smiley", "indifférent", "face neutral"],
+    "src": "./img/icons/face_neutral.png"
+  },
+  {
     "name": "visage contrarié",
     "tags": ["contrarié", "fâché", "triste", "smiley", "face frowning"],
     "src": "./img/icons/face_frowning.png"
   },
   {
-    "name": "croix médicale entourée",
-    "tags": ["médecin", "santé", "urgence", "hôpital", "medical cross circle"],
-    "src": "./img/icons/medical_cross_circle.png"
+    "name": "visage triste",
+    "tags": ["triste", "émoticône", "smiley", "déçu", "face sad"],
+    "src": "./img/icons/face_sad.png"
   },
   {
-    "name": "microphone",
-    "tags": ["micro", "microphone", "audio", "voix", "microphone"],
-    "src": "./img/icons/microphone.png"
+    "name": "lèvres",
+    "tags": ["lèvres", "bouche", "baiser", "maquillage", "lips"],
+    "src": "./img/icons/lips.png"
   },
   {
-    "name": "cœur",
-    "tags": ["cœur", "amour", "like", "favori", "heart"],
-    "src": "./img/icons/heart.png"
+    "name": "lèvres 2",
+    "tags": ["lèvres", "bouche", "sourire", "maquillage", "lips", "bisou"],
+    "src": "./img/icons/lips_2.png"
   },
   {
-    "name": "utilisateur",
-    "tags": ["utilisateur", "profil", "personne", "compte", "user"],
-    "src": "./img/icons/user.png"
-  },
-  {
-    "name": "avion",
-    "tags": ["avion", "voyage", "vol", "transport", "airplane"],
-    "src": "./img/icons/airplane.png"
-  },
-  {
-    "name": "avion en papier",
-    "tags": ["message", "envoyer", "avion en papier", "papier", "paper plane"],
-    "src": "./img/icons/paper_plane.png"
-  },
-  {
-    "name": "balance",
-    "tags": ["justice", "équilibre", "loi", "tribunal", "scales"],
-    "src": "./img/icons/scales.png"
-  },
-  {
-    "name": "poignée de main",
-    "tags": ["accord", "contrat", "partenariat", "collaboration", "handshake"],
-    "src": "./img/icons/handshake.png"
-  },
-  {
-    "name": "bouclier",
-    "tags": ["bouclier", "protection", "sécurité", "défense", "shield"],
-    "src": "./img/icons/shield.png"
-  },
-  {
-    "name": "épée",
-    "tags": ["épée", "combat", "arme", "médiéval", "sword"],
-    "src": "./img/icons/sword.png"
+    "name": "bulle de pensée",
+    "tags": ["bulle", "bubble"],
+    "src": "./img/icons/bubble.png"
   },
 
   {
-    "name": "souris d’ordinateur",
-    "tags": ["souris", "ordinateur", "pc", "curseur", "computer mouse"],
-    "src": "./img/icons/computer_mouse.png"
-  },
-  {
-    "name": "flèche de curseur",
-    "tags": ["curseur", "flèche", "souris", "sélection", "cursor arrow"],
-    "src": "./img/icons/cursor_arrow.png"
-  },
-  {
-    "name": "nuage",
-    "tags": ["nuage", "météo", "ciel", "cloud", "cloud"],
-    "src": "./img/icons/cloud.png"
-  },
-  {
-    "name": "soleil",
-    "tags": ["soleil", "météo", "jour", "lumière", "sun"],
-    "src": "./img/icons/sun.png"
-  },
-  {
-    "name": "fourchette et cuillère",
-    "tags": ["fourchette", "cuillère", "repas", "couverts", "fork spoon"],
-    "src": "./img/icons/fork_spoon.png"
-  },
-  {
-    "name": "flèches gauche droite",
-    "tags": ["flèches", "gauche", "droite", "déplacement", "arrow left right"],
-    "src": "./img/icons/arrow_left_right.png"
-  },
-  {
-    "name": "bulle de dialogue",
-    "tags": ["bulle", "discussion", "message", "chat", "speech bubble"],
-    "src": "./img/icons/speech_bubble.png"
-  },
-  {
-    "name": "balai",
-    "tags": ["balai", "ménage", "nettoyage", "propreté", "broom"],
-    "src": "./img/icons/broom.png"
-  },
-  {
-    "name": "éclair",
-    "tags": ["éclair", "foudre", "électricité", "puissance", "lightning bolt"],
-    "src": "./img/icons/lightning_bolt.png"
-  },
-  {
-    "name": "flèche courbée",
-    "tags": ["flèche", "retour", "courbée", "rafraîchir", "curved arrow"],
-    "src": "./img/icons/curved_arrow.png"
+    "name": "œil",
+    "tags": ["œil", "oeil", "regard", "vision", "voir", "eye"],
+    "src": "./img/icons/eye.png"
   },
   {
     "name": "oreille",
@@ -489,17 +524,6 @@
     "src": "./img/icons/nose.png"
   },
   {
-    "name": "lèvres",
-    "tags": ["lèvres", "bouche", "baiser", "maquillage", "lips"],
-    "src": "./img/icons/lips.png"
-  },
-  {
-    "name": "œil",
-    "tags": ["œil", "oeil", "regard", "vision", "voir", "eye"],
-    "src": "./img/icons/eye.png"
-  },
-
-  {
     "name": "idée ampoule",
     "tags": ["idée", "idee", "ampoule", "inspiration", "concept", "idea lightbulb"],
     "src": "./img/icons/idea_lightbulb.png"
@@ -509,26 +533,7 @@
     "tags": ["ampoule", "lumière", "éclairage", "énergie", "lightbulb"],
     "src": "./img/icons/lightbulb.png"
   },
-  {
-    "name": "deux personnes",
-    "tags": ["personnes", "groupe", "ami", "collègue", "two people"],
-    "src": "./img/icons/two_people.png"
-  },
-  {
-    "name": "bulle de pensée",
-    "tags": ["pensée", "réflexion", "idée", "rêver", "thought bubble"],
-    "src": "./img/icons/speech_bubble.png"
-  },
-  {
-    "name": "visage hilare",
-    "tags": ["rire", "hilarant", "émoticône", "smiley", "laughing face"],
-    "src": "./img/icons/laughing_face.png"
-  },
-  {
-    "name": "lèvres 2",
-    "tags": ["lèvres", "bouche", "sourire", "maquillage", "lips"],
-    "src": "./img/icons/lips_2.png"
-  },
+
   {
     "name": "boîte cadeau",
     "tags": ["cadeau", "présent", "anniversaire", "surprise", "gift box"],
